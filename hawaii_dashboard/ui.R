@@ -7,8 +7,20 @@ sidebar <- dashboardSidebar(
                               menuItem(text = "Overview", 
                                        tabName = "Overview",
                                        icon = icon("compass")
-                                       )
-                            )
+                                       ),
+                              menuItem(text = "Flights", 
+                                       tabName = "Flights",
+                                       icon = icon("plane")
+                                      ),
+                              menuItem(text = "Airbnb", 
+                                       tabName = "Airbnb",
+                                       icon = icon("hotel")
+                                      ),
+                              menuItem(text = "Attraction", 
+                                       tabName = "Attraction",
+                                       icon = icon("heart")
+                                      )
+                                  )
                             
 )
 
